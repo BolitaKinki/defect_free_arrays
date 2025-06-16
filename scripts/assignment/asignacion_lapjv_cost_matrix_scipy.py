@@ -5,12 +5,12 @@ from lap import lapjv
 import time
 from scipy.spatial.distance import cdist
 
-# Parámetros
+# Parámetros 
 GRID_SIZE = 40
 OCCUPANCY = 0.65
 TARGET_SIZE = 25
 ALPHA = 2
-STEPS = 20  # Número de interpolaciones
+STEPS = 20  
 
 def generate_random_array(grid_size, occupancy):
     total_sites = grid_size * grid_size
